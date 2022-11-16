@@ -123,19 +123,31 @@ display: block;
 
     @media (max-width:576px) {
         .container{
-            height: 100vh;
-           display: flex;
-           flex-direction: column;
-           gap: 1rem;
-           padding: 1rem;
+           
+                width: 400px;
+                height: 660px;
+                display:flex;
+                flex-direction: column;
+               
+                
+                
+            
+           
         }
 
         .card-left{
+            width:250px;
             margin: 0 auto;
+           
         }
         .card-right{
-            margin: 0 auto;
+           
         }
         
+        .card-right h4 span{
+            
+            font-size:12px;
+            
+          }
        
     }
